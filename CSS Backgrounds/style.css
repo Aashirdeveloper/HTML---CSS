@@ -1,0 +1,38 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+    background-color: red;
+    background-image: url("a.png");
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+    background-position:center center;
+}
+.container2{
+    
+    width: 100%;
+    height: 500px;
+    background-color: yellow;
+    background-image: url("1.png"), url("2.png"), url("3.png");
+    background-repeat: no-repeat;
+    background-position:left center, center center, right center;
+    background-size: 300px 300px;
+    
+    
+}
+.container3{
+    
+    width: 100%;
+    height: 1000px;
+    
+    background-image: url("4.png");
+   
+    background-position:center center;
+    
+}
