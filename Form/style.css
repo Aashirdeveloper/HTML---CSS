@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    background-color: rgb(222, 222, 222);
+    width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+.form-field {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.form-field input[type=text],
+.form-field input[type=email] {
+    padding: 15px;
+    font-size: 20px;
+    border-style: 1px solid;
+    border-radius: 5px;
+    border-color: aquamarine;
+    outline: none;
+}
+
+.form-field label {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.form-field label,
+.form-field input[type=text],
+.form-field input[type=email] {
+    width: 96%;
+}
+
+.form-field select {
+    width: 100%;
+}
+
+.form-field input[type=submit] {
+    width: 100%;
+    padding: 15px;
+    background-color: coral;
+    color: #fff;
+    font-size: 22px;
+}
+
+
+
+.form-field select {
+    width: 100%;
+}
